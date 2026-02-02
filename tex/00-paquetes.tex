@@ -1,0 +1,60 @@
+% ======================
+% Idioma
+% ======================
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+
+% Numeración de secciones
+\setcounter{secnumdepth}{3}
+
+% ======================
+% Figuras / Tablas
+% ======================
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+
+
+\graphicspath{{img/}}
+
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\listtablename}{Índice de tablas}%
+}
+
+\captionsetup{
+  justification=raggedright,
+  singlelinecheck=false
+}
+\captionsetup[figure]{position=above,labelfont=bf,textfont=it,labelsep=newline}
+\captionsetup[table]{position=above,labelfont=bf,textfont=it,labelsep=newline}
+
+% ======================
+% Bibliografía APA
+% ======================
+\usepackage[
+  backend=biber,
+  style=apa,
+  natbib=true
+]{biblatex}
+\addbibresource{bib/referencias.bib}
+
+\usepackage{hyperref}
+% ======================
+% Forzar encabezados a la izquierda (compatible con apa7)
+% ======================
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+  {-1.5ex \@plus -1ex \@minus -.2ex}%
+  {1.0ex \@plus .2ex}%
+  {\normalfont\bfseries\raggedright\large}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+  {-1.25ex\@plus -1ex \@minus -.2ex}%
+  {0.8ex \@plus .2ex}%
+  {\normalfont\bfseries\raggedright\normalsize}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {-1.0ex\@plus -1ex \@minus -.2ex}%
+  {0.6ex \@plus .2ex}%
+  {\normalfont\bfseries\raggedright\normalsize}}
+\makeatother
+

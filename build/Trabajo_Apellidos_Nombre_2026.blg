@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'build/Trabajo_Apellidos_Nombre_2026.blg'
+[46] biber:340> INFO - === Mon Feb  2, 2026, 18:16:57
+[55] Biber.pm:419> INFO - Reading 'build/Trabajo_Apellidos_Nombre_2026.bcf'
+[97] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[107] Biber.pm:4419> INFO - Processing section 0
+[114] Biber.pm:4610> INFO - Looking for bibtex file 'bib/referencias.bib' for section 0
+[114] bibtex.pm:1713> INFO - LaTeX decoding ...
+[116] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/referencias.bib'
+[141] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[141] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[141] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[147] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[147] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[147] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[148] bbl.pm:660> INFO - Writing 'build/Trabajo_Apellidos_Nombre_2026.bbl' with encoding 'UTF-8'
+[149] bbl.pm:763> INFO - Output to build/Trabajo_Apellidos_Nombre_2026.bbl

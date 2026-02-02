@@ -1,0 +1,47 @@
+\documentclass[stu,spanish,floatsintext]{apa7}
+
+
+% ======================
+% Paquetes y configuración (fuera del main)
+% ======================
+\input{tex/00-paquetes}
+\input{tex/00-config}
+
+\begin{document}
+
+\maketitle
+
+% ======================
+% Resumen
+% ======================
+\input{tex/00-resumen}
+\newpage
+
+% ======================
+% Índices
+% ======================
+\tableofcontents
+\newpage
+
+\listoffigures
+\listoftables
+\newpage
+
+% ======================
+% Capítulos
+% ======================
+\input{tex/01-titulo1}
+\input{tex/02-titulo2}
+
+
+
+% Fuerza a imprimir figuras/tablas antes de referencias
+\clearpage
+\printbibliography
+% ======================
+% Anexos (opcional)
+% ======================
+%\input{tex/90-anexos}
+
+\end{document}
+

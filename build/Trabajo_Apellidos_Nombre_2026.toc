@@ -1,0 +1,6 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Título1}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Subtítulo1}{5}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Tercer apartado}{5}{subsubsection.1.1.1}%
+\contentsline {section}{\numberline {2}Título2}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Otro subtítulo}{5}{subsection.2.1}%
