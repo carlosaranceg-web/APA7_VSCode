@@ -1,0 +1,82 @@
+% =========================
+% Portada estilo Davante/MEDAC (extra) - configurable
+% =========================
+
+% -------- CONFIG (cambia esto) --------
+\newcommand{\DavanteCentro}{Davante Medac}
+\newcommand{\DavanteAsignatura}{Acceso a Datos}
+\newcommand{\DavanteTrabajo}{Entrevista NTT DATA}
+\newcommand{\DavanteAutor}{Alexis Bolívar Fernández}
+\newcommand{\DavanteFecha}{21/01/2026}
+
+% Logo Davante 
+\newcommand{\DavanteLogo}{img/logo.png} 
+
+% Colores aproximados del modelo
+\definecolor{DavanteTeal}{HTML}{12B3A6}
+\definecolor{DavanteNavy}{HTML}{0A2B3D}
+% -------------------------------------
+
+% No numerar esta portada (para que APA empiece en 1)
+\pagenumbering{gobble}
+
+\begin{titlepage}
+\thispagestyle{empty}
+
+% Fondo + formas SOLO esta página
+
+\AddToShipoutPictureBG*{%
+  \AtPageLowerLeft{%
+    \begin{tikzpicture}[remember picture,overlay]
+
+      % Barra turquesa superior izquierda
+      \fill[DavanteTeal]
+        ([xshift=2.2cm,yshift=-2.0cm]current page.north west)
+        rectangle
+        ([xshift=8.0cm,yshift=-1.75cm]current page.north west);
+
+      % Logo arriba izquierda (debajo de la barra)
+      \node[anchor=north west] at
+        ([xshift=2.2cm,yshift=-2.8cm]current page.north west)
+        {\includegraphics[width=4.5cm]{\DavanteLogo}};
+
+      % Triángulo inferior derecho
+      \fill[DavanteNavy]
+        ([xshift=0cm,yshift=0cm]current page.south east) --
+        ([xshift=-7.3cm,yshift=0cm]current page.south east) --
+        ([xshift=0cm,yshift=13cm]current page.south east) -- cycle;
+
+    \end{tikzpicture}
+  }%
+}
+%==================================
+% Logo centrado 
+%==================================
+
+%\vspace*{2.0cm}
+%\begin{center}
+%  \includegraphics[width=0.45\textwidth]{\DavanteLogo}
+%\end{center}
+
+% Bloque de texto (izquierda, centro de página)
+\vspace*{3.0cm}
+\begin{flushleft}
+  \hspace*{2.2cm}
+  \begin{minipage}{0.62\textwidth}
+    \raggedright
+    \color{DavanteNavy}
+    \setlength{\parskip}{1.1em}
+
+    {\Large\bfseries \DavanteCentro\par}
+    {\Large\bfseries \DavanteAsignatura\par}
+    {\Large\bfseries \DavanteTrabajo\par}
+    {\Large\bfseries \DavanteAutor\par}
+    {\Large\bfseries \DavanteFecha\par}
+  \end{minipage}
+\end{flushleft}
+
+\vfill
+\end{titlepage}
+
+% Limpia el fondo para que NO afecte al resto
+\ClearShipoutPictureBG

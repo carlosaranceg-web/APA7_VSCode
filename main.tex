@@ -8,14 +8,17 @@
 \input{tex/00-config}
 
 \begin{document}
+\input{tex/00-portada-davante} %portada personalizada Davante
 
+\pagenumbering{arabic}
+\setcounter{page}{1} % Empezar a contar desde 1 después de la portada
 \maketitle
 
 % ======================
 % Resumen
 % ======================
-\input{tex/00-resumen}
-\newpage
+%\input{tex/00-resumen}
+%\newpage
 
 % ======================
 % Índices
@@ -35,13 +38,17 @@
 
 
 
+
 % Fuerza a imprimir figuras/tablas antes de referencias
 \clearpage
+\nocite{*} % Para mostrar todas las referencias del .bib aunque no se citen
 \printbibliography
+
 % ======================
-% Anexos (opcional)
+ Anexos (opcional)
 % ======================
 %\input{tex/90-anexos}
 
 \end{document}
+
 
