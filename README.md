@@ -1,0 +1,20 @@
+LEEME
+
+Instrucciones de uso de VS Code para textos en formato APA 7
+
+El archivo json hace que no sea necesario pero si no lo usas, siempre compilar el archivo maix.tex con CTRL+shift+P buscar LaTex Workshop: Build with recipe// latexmk
+
+Para cambiar cosas:
+Dentro de /text/
+	*Config es para la portada
+	*resumen para poner el resumen y keywords para el documentp
+	*titulo1 para el primer apartado, hay ejemplo de como poner una imagen e insertar una referencia
+	*titulo2 idem, pero con ejemplo de tabla
+Las imágenes se colocan dentro de la carpeta img
+Las referencias en la carpetabib, en el atrchivo referencias.bib
+Dentro de la carpeta .vscode, el el archivo settings.json puedes modificar la línea -jobname=Trabajo_Apellidos_Nombre_2026 para que tu archivo pdf se 
+guarde con el nombre que quieras
+
+
+
+El archivo final se guardará en la carpeta Build
