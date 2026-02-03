@@ -6,12 +6,17 @@ El archivo json hace que no sea necesario pero si no lo usas, siempre compilar e
 
 Para cambiar cosas:
 Dentro de /text/
+
 	*Config es para la portada
-	*resumen para poner el resumen y keywords para el documentp
+	*resumen para poner el resumen y keywords para el documento
 	*titulo1 para el primer apartado, hay ejemplo de como poner una imagen e insertar una referencia
 	*titulo2 idem, pero con ejemplo de tabla
+
+	
 Las imágenes se colocan dentro de la carpeta img
+
 Las referencias en la carpetabib, en el atrchivo referencias.bib
+
 Dentro de la carpeta .vscode, el el archivo settings.json puedes modificar la línea -jobname=Trabajo_Apellidos_Nombre_2026 para que tu archivo pdf se 
 guarde con el nombre que quieras
 
