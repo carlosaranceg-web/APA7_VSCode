@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.28)  3 FEB 2026 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.28)  3 FEB 2026 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -950,39 +950,73 @@ Package biblatex Info: ... file 'Trabajo_Apellidos_Nombre_2026.bbl' found.
  (build/Trabajo_Apellidos_Nombre_2026.bbl)
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}
+ (./tex/00-portada-davante.tex
+./tex/00-portada-davante.tex:31: Undefined control sequence.
+l.31 \AddToShipoutPictureBG
+                           *{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] (./tex/00-resumen.tex) [2] (build/Trabajo_Apellidos_Nombre_2026.toc
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+./tex/00-portada-davante.tex:32: Undefined control sequence.
+l.32   \AtPageLowerLeft
+                       {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<img/logo.png, id=27, 455.45157pt x 136.76094pt>
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png  used on input line 44.
+(pdftex.def)             Requested size: 128.0374pt x 38.44722pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 78.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 78.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 78.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 78.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 78.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./img/logo.png>]
+./tex/00-portada-davante.tex:85: Undefined control sequence.
+l.85 \ClearShipoutPictureBG
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [1] (build/Trabajo_Apellidos_Nombre_2026.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write8
 \openout8 = `Trabajo_Apellidos_Nombre_2026.toc'.
 
- [3] (build/Trabajo_Apellidos_Nombre_2026.lof
+ [2] (build/Trabajo_Apellidos_Nombre_2026.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -998,13 +1032,13 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write10
 \openout10 = `Trabajo_Apellidos_Nombre_2026.lot'.
 
- [4] (./tex/01-titulo1.tex
-<img/ejemplo.jpg, id=62, 569.7285pt x 235.47975pt>
+ [3] (./tex/01-titulo1.tex
+<img/ejemplo.jpg, id=64, 569.7285pt x 235.47975pt>
 File: img/ejemplo.jpg Graphic file (type jpg)
 <use img/ejemplo.jpg>
-Package pdftex.def Info: img/ejemplo.jpg  used on input line 19.
+Package pdftex.def Info: img/ejemplo.jpg  used on input line 20.
 (pdftex.def)             Requested size: 305.33789pt x 126.20139pt.
-) (./tex/02-titulo2.tex) [5 <./img/ejemplo.jpg>] [6] AED endfloat: Processing end Figures and Tables [7
+) (./tex/02-titulo2.tex [4 <./img/ejemplo.jpg>]) [5] AED endfloat: Processing end Figures and Tables [6
 
 
 ] (build/Trabajo_Apellidos_Nombre_2026.aux
@@ -1016,25 +1050,39 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Trabajo_Apellidos_Nombre_2026.out' has not changed.
 (rerunfilecheck)             Checksum: 453C2AC9B59A0C7E339720BF7F503A0A;550.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Trabajo_Apellidos_Nombre_2026.run.xml'.
 \openout1 = `Trabajo_Apellidos_Nombre_2026.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32320 strings out of 474222
- 614708 string characters out of 5748733
+ 32413 strings out of 474222
+ 617029 string characters out of 5748733
  1930975 words of memory out of 5000000
- 54061 multiletter control sequences out of 15000+600000
- 599442 words of font info for 62 fonts, out of 8000000 for 9000
+ 54152 multiletter control sequences out of 15000+600000
+ 605455 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,703b,2815s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{table.caption.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not exist, replaced by a fixed one
+
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on build/Trabajo_Apellidos_Nombre_2026.pdf (7 pages, 116199 bytes).
+Output written on build/Trabajo_Apellidos_Nombre_2026.pdf (7 pages, 140857 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
