@@ -2,20 +2,17 @@
 % Portada estilo Davante/MEDAC (extra) - configurable
 % =========================
 
-% -------- CONFIG (configurable de la portada) --------
-\newcommand{\DavanteCentro}{Centro de Formación}
-\newcommand{\DavanteAsignatura}{Asignatura}
-\newcommand{\DavanteTrabajo}{título del trabajo}
-\newcommand{\DavanteAutor}{autor}
-\newcommand{\DavanteFecha}{24 de junio de 2024}
-%\newcommand{\DavanteFecha}{\today} %fecha automática
-% -----------------------------------------------------
+% -------- CONFIG (cambia esto) --------
+\newcommand{\DavanteCentro}{Davante Medac}
+\newcommand{\DavanteAsignatura}{Acceso a Datos}
+\newcommand{\DavanteTrabajo}{Entrevista NTT DATA}
+\newcommand{\DavanteAutor}{Alexis Bolívar Fernández}
+\newcommand{\DavanteFecha}{\today}
 
-
-% Logo  
+% Logo Davante 
 \newcommand{\DavanteLogo}{img/logo.png} 
 
-% Colores aproximados del modelo (Davante)
+% Colores aproximados del modelo
 \definecolor{DavanteTeal}{HTML}{12B3A6}
 \definecolor{DavanteNavy}{HTML}{0A2B3D}
 % -------------------------------------
@@ -28,7 +25,7 @@
 
 % Fondo + formas SOLO esta página
 
-\AddToShipoutPictureBG*{%
+\AddToShipoutPictureBG{%
   \AtPageLowerLeft{%
     \begin{tikzpicture}[remember picture,overlay]
 
