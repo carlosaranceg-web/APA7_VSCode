@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/Trabajo_Apellidos_Nombre_2026"] 1770122674.16525 "build/Trabajo_Apellidos_Nombre_2026.bcf" "build/Trabajo_Apellidos_Nombre_2026.bbl" "build/Trabajo_Apellidos_Nombre_2026" 1770290634.52965 0
+["biber build/Trabajo_Apellidos_Nombre_2026"] 1770122674.16525 "build/Trabajo_Apellidos_Nombre_2026.bcf" "build/Trabajo_Apellidos_Nombre_2026.bbl" "build/Trabajo_Apellidos_Nombre_2026" 1770290874.94163 0
   "bib/referencias.bib" 1770048037.25836 377 b8009034c7098ede3527fb23680e0b55 ""
-  "build/Trabajo_Apellidos_Nombre_2026.bcf" 1770290634.45948 133137 6fd98edf437fc929fe54c9e0824e5a4c "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.bcf" 1770290874.87508 133137 6fd98edf437fc929fe54c9e0824e5a4c "pdflatex"
   (generated)
   "build/Trabajo_Apellidos_Nombre_2026.bbl"
   "build/Trabajo_Apellidos_Nombre_2026.blg"
   (rewritten before read)
-["pdflatex"] 1770290633.52967 "/home/carlos/trabajo-apa7/main.tex" "build/Trabajo_Apellidos_Nombre_2026.pdf" "Trabajo_Apellidos_Nombre_2026" 1770290634.52995 2
+["pdflatex"] 1770290873.9694 "/home/carlos/trabajo-apa7/main.tex" "build/Trabajo_Apellidos_Nombre_2026.pdf" "Trabajo_Apellidos_Nombre_2026" 1770290874.94192 2
   "/etc/texmf/web2c/texmf.cnf" 1769623747.90509 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/carlos/trabajo-apa7/main.tex" 1770142473.12747 1021 00076da8e7422b6c22616325909aa24e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -197,19 +197,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1769623773.28427 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769623915 8213716 735f00bae94bcc0c7f9e5dcc22033254 ""
-  "build/Trabajo_Apellidos_Nombre_2026.aux" 1770290634.45648 2063 b490e885d2abfaeacaf11dd0e8dcceca "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.aux" 1770290874.87208 2063 b490e885d2abfaeacaf11dd0e8dcceca "pdflatex"
   "build/Trabajo_Apellidos_Nombre_2026.bbl" 1770122675.1686 4858 271009e201352a38a730c769442ce79a "biber build/Trabajo_Apellidos_Nombre_2026"
-  "build/Trabajo_Apellidos_Nombre_2026.lof" 1770290634.46166 137 3e7de505fbfc51338fe7cef8ebcc5840 "pdflatex"
-  "build/Trabajo_Apellidos_Nombre_2026.lot" 1770290634.46166 122 7f202b378cf1a18de57de2560d3f5450 "pdflatex"
-  "build/Trabajo_Apellidos_Nombre_2026.out" 1770290634.45848 550 453c2ac9b59a0c7e339720bf7f503a0a "pdflatex"
-  "build/Trabajo_Apellidos_Nombre_2026.run.xml" 1770290634.46166 2573 ac08bf38557f31f632766bb3751d2169 "pdflatex"
-  "build/Trabajo_Apellidos_Nombre_2026.toc" 1770290634.46166 407 c20b56216124a9620a49868625bca927 "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.lof" 1770290874.87591 137 3e7de505fbfc51338fe7cef8ebcc5840 "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.lot" 1770290874.87591 122 7f202b378cf1a18de57de2560d3f5450 "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.out" 1770290874.87408 550 453c2ac9b59a0c7e339720bf7f503a0a "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.run.xml" 1770290874.87591 2573 ac08bf38557f31f632766bb3751d2169 "pdflatex"
+  "build/Trabajo_Apellidos_Nombre_2026.toc" 1770290874.87591 407 c20b56216124a9620a49868625bca927 "pdflatex"
   "img/ejemplo.jpg" 1763051033 15652 7f77534081a50e7e236a972922fa1834 ""
   "img/logo.png" 1770142472.96576 25410 58df47fa3e934122dc66647500602230 ""
   "main.tex" 1770142473.12747 1021 00076da8e7422b6c22616325909aa24e ""
   "tex/00-config.tex" 1770052774.02716 395 b41ab2886296afaf848d6b31b9a1831d ""
   "tex/00-paquetes.tex" 1770051104.04285 1510 6ddd64d774f9655c5303dc31502de8bb ""
-  "tex/00-portada-davante.tex" 1770290633.32552 2284 ba4785befc2d65d3024803556a327722 ""
+  "tex/00-portada-davante.tex" 1770290873.77538 2252 e4233ea184d04602edbbc23b2ac59a6e ""
   "tex/01-titulo1.tex" 1770142472.96596 956 7a48ebf7fae0f5a94aeaec2796e4a33d ""
   "tex/02-titulo2.tex" 1770051104.04253 564 e5f574226f1bf2c36bdb90cb4c939261 ""
   (generated)
